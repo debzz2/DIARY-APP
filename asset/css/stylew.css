@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Pacifico&display=swap');
+
+*{
+    font-family: font-family: 'Lato', sans-serif;
+    
+}
+
+body {background: url(/asset/img/pexels-mikhail-nilov-6893329.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-item .nav-link{border-bottom: #c0ac97;
+        
+}
+
+button{
+        border: #c0ac97;
+        background-color: #c0ac97;
+        
+}
+
+.card1{
+      background-color: #c0ac97ab;
+}
+
+a:active {
+    background-color: #c0ac97;
+  }
+
+  a:hover {
+    background-color: #c0ac97;
+  }
+

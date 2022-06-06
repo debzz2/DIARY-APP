@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Pacifico&display=swap');
+
+*{
+    font-family: font-family: 'Lato', sans-serif;
+    font-family: 'Pacifico', cursive;
+}
+
+
+body{
+    background: url(/asset/img/pexels-dorota-semla-8911867.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.card{
+    background-color: #e1e1e19c;
+    color: #003263;
+}
+
+

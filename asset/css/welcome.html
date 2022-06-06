@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!-- custom css -->
+<link rel="stylesheet" href="/asset/css/stylew.css">
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+   <!-- navbar -->
+<div class="container-fluid bread text-color-#b9a58c">
+    <nav class="navbar navbar-expand-sm">
+
+        <div class="container-fluid">
+          <!-- Links -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#section3">Today</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section4">Search Diary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section4">Reminder</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Signout</a>
+              </li>
+          </ul>
+        </div>    
+      </nav> 
+</div>
+
+<div class="container m-5 p-5" id="section3">
+    <div class="row">
+        <div class="col-md-5 mx-auto">
+            <div class="card1 px-4 py-2">
+                <p><b>Welcome Debra to your DiaryApp</b></p>
+                <form action="">
+                    <div class="form-floating">
+                        <div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" checked>
+                                <label class="form-check-label" for="inlineCheckbox1">Text</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">Audio</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                <label class="form-check-label" for="inlineCheckbox3">Image</label>
+                              </div>
+                        </div>
+                        <div class=py-2>
+                            <label for="date">Date</label>
+                        <input type="date" name="form-control" id="date">
+                        </div>
+                        
+                      <div class="form-floating mt-2 mb-4">
+                        <textarea class="form-control" rows="10" id="comment" name="text" placeholder="Comment goes here"></textarea>
+                        <label for="comment">Today's Event</label>
+                      </div>
+                      <div class="mb-3">
+                        <label for="formFile" class="form-label">Upload Audio, Video or Images</label>
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+                        <button type="button" class="btn btn-outline-dark text-center">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- cards -->
+
+<!-- <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card" style="width:400px">
+                <img class="card-img-top" src="img_avatar1.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+        
+              <div class="card" style="width:400px">
+                <img class="card-img-top" src="img_avatar1.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+        
+              <div class="card" style="width:400px">
+                <img class="card-img-top" src="img_avatar1.png" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="container my-5">
+    <div class="row gy-3">
+        <div class="col-sm">
+            <div class="card h-50">
+                <img src="/asset/img/today.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Debra's World <a href=""><i class="bi bi-balloon"></i></a></h5>
+                  <p class="card-text">Enjoy Exclusivity. <i class="bi bi-file-lock"></i> <br><br> Express your widest thoughts in Style<br> <br> The Secrets of the Sand is safe with Us. <i class="bi bi-bag-dash"></i></p>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-sm">
+            <div class="card h-100">
+                <div class="bg-image hover-zoom">
+                    <img src="/asset/img/search.jpg" class="card-img-top" alt="...">
+                  </div>
+                <div class="card-body">
+                  <h5 class="card-title">Search Diary <a href=""><i class="bi bi-search-heart"></i></a> </h5>
+                  <p class="card-text">
+                      <ul>
+                          <li>Relive the moments.</li>
+                          <br>
+                          <li>Reminisce on Past Events.</li>
+                          <br>
+                          <li>Track your Trajectories.</li>
+                          <br>
+                          <li><b>This day last year <i class="bi bi-arrow-repeat"></i></b></li>
+                      </ul>
+
+
+                  </p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm" id="section4">
+            <div class="card h-100">
+                <img src="/asset/img/pexels-ann-poan-5797908.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Upcoming Events <a href=""><i class="bi bi-calendar3"></i></a></h5>
+                  <p class="card-text">Set your year in motion with the inbuilt daily to-do list menu, weekly, monthly reminders.
+                      <ul>
+                          <li>Meeting with ADA - 30th June, 2022</li>
+                          <br><br>
+                          <li>Wedding Anniver - 5th August, 2022</li>
+                          
+                      </ul>
+                  </p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+    
+
+   <!-- JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
+
